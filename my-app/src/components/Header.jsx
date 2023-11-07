@@ -1,16 +1,15 @@
 import React from "react";
+import HighlightIcon from "@material-ui/icons/Highlight";
 
 function Header() {
-    return (
-        <header>
-            <h1>Diaries</h1>
-        </header>
-    );
+  return (
+    <header>
+      <h1>
+        <HighlightIcon />
+        Diaries
+      </h1>
+    </header>
+  );
 }
 
 export default Header;
-
-
-
-
-
